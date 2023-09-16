@@ -1,1 +1,7 @@
-# machine-learning-problema-de-classificacao-de-funcionarios
+# PROBLEMA A SER RESOLVIDO
+
+Em um cenário fictício, temos uma empresa que visa enviar candidatos ao exterior para um curso de qualificação que tem duração de 1 ano e começa no mês de janeiro, o qual acarreta custos significativos para a empresa. No entanto, em junho, a empresa tradicionalmente realiza cortes de funcionários devido a uma política interna. Portanto, é crucial identificar o maior número possível de funcionários que serão demitidos, a fim de evitar que esses colaboradores se inscrevam no curso de qualificação no exterior, apenas para serem desligados no meio do ano, o que resultaria em prejuízo para a empresa.
+
+Por esse motivo, nossa prioridade será maximizar o recall, ou seja, identificar corretamente todos os funcionários que serão demitidos. Isso se justifica pelo fato de que classificar erroneamente um funcionário como não tendo sido demitido, quando na verdade ele foi, acarretaria em um custo muito maior para a empresa em comparação com a situação em que um funcionário é classificado como demitido erroneamente, mas que, na verdade não foi. Isso ocorre porque os candidatos erroneamente classificados como demitidos e que não foram desligados, em junho serão enviados imediatamente para o exterior para se juntar aos outros funcionários e iniciar o treinamento.
+
+Dessa forma, ao priorizarmos o recall, estamos reduzindo o risco de enviar funcionários que serão demitidos em junho para o treinamento no exterior, minimizando o prejuízo financeiro e logístico da empresa.
